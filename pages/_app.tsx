@@ -61,7 +61,7 @@ class MyApp extends App<MyAppProps, MyAppState> {
     return (
       <React.Fragment>
         <Head>
-          <title>My page</title>
+          <title>Next.js TypeScript Example</title>
         </Head>
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
