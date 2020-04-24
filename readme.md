@@ -5,7 +5,6 @@
 - MaterialUI
 - esm
 - ExpressJS
-- babel-plugin-root-import
 
 ## How to?
 ### Starting a dev instance
@@ -20,21 +19,6 @@ If using npm
 ```
 
 ## Configuration
-### babel-plugin-root-import
-This starter uses babel-plugin-root-import to make importing easier. You can find the settings under `babel.config.json`:
-```
-  [
-    "babel-plugin-root-import",
-    {
-      "rootPathSuffix": "./",
-      "rootPathPrefix": "~/"
-    }
-  ]
-```
-
-This would make importing anything from root be suffixed with `~/` instead of having to navigate through the relative path.
-
-
 ### MobX
 The mobx store is set up to consolidate all stores into a single props.
 Navigating to `./store/index.ts`, you will find the store initialization code which imports and exports all initialized store.
